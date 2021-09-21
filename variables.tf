@@ -5,7 +5,7 @@ variable "region" {
 }
 variable "number_of_demo_instances" {
   description = "How many VMs do you want?"
-  default     = 3
+  default     = 2
 }
 variable "project_id" {
   description = "Project to deploy resources"
